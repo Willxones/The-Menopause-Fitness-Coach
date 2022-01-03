@@ -89,7 +89,7 @@
                   <div class="card overflow-hidden">
                     <div class="row">
                       <div class="col-lg-7">
-                        <form class="p-3" id="fcf-form-id" method="post" action='contact-form-process.php'>
+                        <form class="p-3" action="mail.php" method="POST">
                           <div class="card-header px-4 py-sm-5 py-3">
                             <h2>Drop us a message.</h2>
                             <p class="lead"> If you have any issues or questions feel free to contact us!</p>
@@ -97,19 +97,19 @@
                           <div class="card-body pt-1">
                               <div class="row">
                                 <div class="col-md-12 pe-2 mb-3">
-                                  <label for="Name">My name is</label>
-                                  <input id='Name' name='Name' class="form-control" placeholder="Full Name" type="text" required >
+                                  <label for="name">My name is</label>
+                                  <input name='name' class="form-control" placeholder="Full Name" type="text" required >
                                 </div>
           
                                 <div class="col-md-12 pe-2 mb-3">
                                   <label for="Email">Email Adress</label>
-                                  <input class="form-control" placeholder="example@example.com" type="email" id="Email" name="Email" required >
+                                  <input class="form-control" placeholder="example@example.com" type="email" name="email" required >
                                 </div>
           
                                 <div class="col-md-12 pe-2 mb-3">
                                   <div class="form-group mb-0">
                                       <label for="Message">Your message</label>
-                                      <textarea name="Message" class="form-control" id="Message" rows="6" placeholder="I want to say that..." required></textarea>
+                                      <textarea name="message" class="form-control" rows="6" placeholder="I want to say that..." required></textarea>
                                   </div>
                                 </div>
                               </div>
