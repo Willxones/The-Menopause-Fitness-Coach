@@ -1,0 +1,37 @@
+.heroicon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.heroicon-sm {
+  width: 1rem;
+  height: 1rem;
+}
+.heroicon-lg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.heroicon-2x {
+  width: 2rem;
+  height: 2rem;
+}
+.heroicon-3x {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.heroicon svg,
+.heroicon use {
+  pointer-events: none;
+}
+
+/* Keep Soft UI icon pills perfectly circular */
+.icon.icon-shape {
+  border-radius: 50% !important;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 48px;
+}

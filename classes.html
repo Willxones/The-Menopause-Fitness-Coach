@@ -23,7 +23,8 @@
 
   <!-- Icons -->
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet">
+  <link href="./assets/css/custom.css" rel="stylesheet">
 
   <!-- Soft UI Design System -->
   <link type="text/css" href="./assets/css/soft-design-system-pro.min.css" rel="stylesheet">
@@ -95,6 +96,13 @@
 
               </a>
             </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link font-weight-bold ps-2 d-flex justify-content-between cursor-pointer align-items-center text-lg"
+                href="retreat.html" role="button">
+                Retreat
+
+              </a>
+            </li>
 
             <li class="nav-item mx-2">
               <a class="nav-link ps-2 d-flex cursor-pointer d-lg-none text-lg text-primary font-weight-bold align-items-center"
@@ -129,24 +137,36 @@
             <p>This is a brief overview of our services. If you want to find out more about us you can use the button
               below or visit the contact page for any questions!</p>
             <a href="about.html" class="text-primary icon-move-right">More about us
-              <i class="fas fa-arrow-right text-sm ms-1"></i>
+              <svg class="heroicon heroicon-sm ms-1" aria-hidden="true">
+                <use xlink:href="assets/icons/heroicons.svg#hero-arrow-right"></use>
+              </svg>
             </a>
           </div>
           <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
             <div class="p-3 info-horizontal">
               <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
-                <i class="fas fa-video opacity-10"></i>
+                <svg class="heroicon heroicon-lg text-white" aria-hidden="true">
+                  <use xlink:href="assets/icons/heroicons.svg#hero-video-camera"></use>
+                </svg>
               </div>
               <div class="description ps-3">
-                <p class="mb-0"><span class="font-weight-bold">Live Workouts</span> <br>These are held from 8am-9am on
-                  weekdays. Join in on Monday, Wednesday and Friday for the Level 2 (intermediate) classes, or join us
-                  on Tuesday and Thursday for the Level 1 (beginners) sessions.</p>
+                <p class="mb-0"><span class="font-weight-bold">Live Workouts</span> <br>These are held at 6:30-7:00am
+                  every weekday
+                  and 8:15-9:00am every Monday, Wednesday and Friday. These classes are for those who have no major
+                  health issues so
+                  if you have dodgy knees, back and a weak pelvic floor then you are advised to use the rehabilitation
+                  classes held
+                  in the library first. Ally can guide you to what you need and once you have improved your condition,
+                  you are ready to join the lives.
+                  If you struggle you may need a course of 1:1's to move you in the right direction.</p>
               </div>
             </div>
 
             <div class="p-3 info-horizontal">
               <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
-                <i class="fas fa-camera opacity-10"></i>
+                <svg class="heroicon heroicon-lg text-white" aria-hidden="true">
+                  <use xlink:href="assets/icons/heroicons.svg#hero-camera"></use>
+                </svg>
               </div>
               <div class="description ps-3">
                 <p class="mb-0"><span class="font-weight-bold">Recorded Workouts</span> <br>If you can’t make the Live
@@ -157,7 +177,9 @@
             </div>
             <div class="p-3 info-horizontal">
               <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
-                <i class="fas fa-plus opacity-10"></i>
+                <svg class="heroicon heroicon-lg text-white" aria-hidden="true">
+                  <use xlink:href="assets/icons/heroicons.svg#hero-plus"></use>
+                </svg>
               </div>
               <div class="description ps-3">
                 <p class="mb-0"><span class="font-weight-bold">Extras</span> <br>Access to extra content such as facia
@@ -198,7 +220,9 @@
                       <div class="info d-flex align-items-center p-2">
                         <div
                           class="icon icon-shape icon-xs rounded-circle bg-gradient-primary opacity-6 shadow text-center">
-                          <i class="fas fa-check opacity-10"></i>
+                          <svg class="heroicon heroicon-sm opacity-10" aria-hidden="true">
+                            <use xlink:href="assets/icons/heroicons.svg#hero-check"></use>
+                          </svg>
                         </div>
                         <div>
                           <span class="ps-2">Access to live sessions</span>
@@ -207,7 +231,9 @@
                       <div class="info d-flex align-items-center p-2">
                         <div
                           class="icon icon-shape icon-xs rounded-circle bg-gradient-primary opacity-6 shadow text-center">
-                          <i class="fas fa-check opacity-10"></i>
+                          <svg class="heroicon heroicon-sm opacity-10" aria-hidden="true">
+                            <use xlink:href="assets/icons/heroicons.svg#hero-check"></use>
+                          </svg>
                         </div>
                         <div>
                           <span class="ps-2">See full video repository</span>
@@ -218,7 +244,9 @@
                       <div class="info d-flex align-items-center p-2">
                         <div
                           class="icon icon-shape icon-xs rounded-circle bg-gradient-primary opacity-6 shadow text-center">
-                          <i class="fas fa-check opacity-10"></i>
+                          <svg class="heroicon heroicon-sm opacity-10" aria-hidden="true">
+                            <use xlink:href="assets/icons/heroicons.svg#hero-check"></use>
+                          </svg>
                         </div>
                         <div>
                           <span class="ps-2">Extra sessions</span>
@@ -227,7 +255,9 @@
                       <div class="info d-flex align-items-center p-2">
                         <div
                           class="icon icon-shape icon-xs rounded-circle bg-gradient-primary opacity-6 shadow text-center">
-                          <i class="fas fa-check opacity-10"></i>
+                          <svg class="heroicon heroicon-sm opacity-10" aria-hidden="true">
+                            <use xlink:href="assets/icons/heroicons.svg#hero-check"></use>
+                          </svg>
                         </div>
                         <div>
                           <span class="ps-2">Regularly updated content</span>
@@ -271,19 +301,14 @@
             <a href="contact.html" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2" role="button">
               Contact
             </a>
-            <a href="1to1classes.html" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2" role="button">
-              1:1 Course
-            </a>
+          <a href="1to1classes.html" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2" role="button">
+            1:1 Course
+          </a>
+          <a href="retreat.html" target="_blank"
+            class="text-secondary font-weight-bold me-xl-5 me-3 mb-sm-0 mb-2" role="button">
+            Retreat
+          </a>
 
-          </div>
-          <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
-            <a href="https://www.instagram.com/themenopausefitnesscoach/" target="_blank"
-              class="text-secondary me-xl-4 me-4">
-              <span class="text-lg fab fa-instagram"></span>
-            </a>
-            <a href="https://www.facebook.com/alisonjones500" target="_blank" class="text-secondary me-xl-4 me-4">
-              <span class="text-lg fab fa-facebook"></span>
-            </a>
           </div>
         </div>
         <div class="row">
